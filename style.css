@@ -1,0 +1,109 @@
+body {
+    background: #F7F9FC;
+    color: #2e2e2e;
+    font-family: "Newsreader", serif;
+    font-size: 17px;
+    font-weight: lighter;
+    margin: 8px;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.text-yellow {
+  color: #F6B723;
+  font-weight: lighter;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  padding: 40px;
+  margin: 50px 0 25px 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.msc {
+  margin-bottom: 40px;
+}
+
+.lewagon_link {
+  font-size: 20px;
+  color: #F6B723;
+  font-family: "Newsreader", serif;
+}
+
+.lewagon_link:hover {
+  color:#2e2e2e;
+  transition: 0.2s ease;
+}
+
+.btn-yellow {
+  background-color: #F6B723;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 20px;
+}
+
+.btn-yellow:hover {
+  background-color: #2e2e2e;
+  transition: 0.2s ease;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+
+.list-inline li i {
+  color: #2e2e2e;
+  font-size: 40px;
+}
+
+.list-inline li i:hover {
+  color: #F6B723;
+  transition: 0.2s ease;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
