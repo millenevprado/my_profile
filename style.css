@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 600px;
+    width: 500px;
     margin: 40px auto;
 }
 
@@ -32,7 +32,7 @@ img {
   border-radius: 8px;
   box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
   padding: 40px;
-  margin: 50px 0 25px 0;
+  margin: 25px 0;
 }
 
 p {
@@ -57,13 +57,14 @@ p {
 .btn-yellow {
   background-color: #F6B723;
   border-radius: 4px;
-  color: white;
+  color: #2e2e2e;
   padding: 15px 20px;
+  transition: 0.3s ease-in-out;
 }
 
 .btn-yellow:hover {
   background-color: #2e2e2e;
-  transition: 0.2s ease;
+  color: white;
 }
 
 a {
@@ -75,6 +76,8 @@ a {
 .list-inline {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .list-inline li {
@@ -84,12 +87,12 @@ a {
 
 .list-inline li i {
   color: #2e2e2e;
-  font-size: 40px;
+  font-size: 45px;
+  transition: 0.3s ease-in-out;
 }
 
 .list-inline li i:hover {
   color: #F6B723;
-  transition: 0.2s ease;
 }
 
 @media (max-width: 960px) {
